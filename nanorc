@@ -1,0 +1,9 @@
+set autoindent
+set linenumbers
+set minibar
+set mouse
+set positionlog
+set zap
+
+include /usr/share/nano/*
+include /usr/share/nano/extra/*
