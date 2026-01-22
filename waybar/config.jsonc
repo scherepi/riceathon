@@ -1,0 +1,6 @@
+{
+    "include": [
+        "/home/guac/.config/waybar/layouts/with_music.jsonc"
+    ],
+    "reload_style_on_change": true
+}

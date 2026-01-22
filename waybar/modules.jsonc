@@ -1,0 +1,47 @@
+{
+    "hyprland/window": {
+        "separate-outputs": true
+    },
+    "hyprland/windowcount": {
+        "format": "[{}]",
+        "format-empty": "[X]"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 13
+        },
+        "tooltip-format": "{timeTo}, experienced {cycles} cycles"
+    },
+    "bluetooth": {
+        "format": "{status}",
+        "format-disabled": "", // hides the module
+        "format-connected": "{device_alias}",
+        "tooltip-format-connected-battery": "{device_alias} at {device_battery_percentage}"
+    },
+    "cpu": {
+        "on-click": "bpytop"
+    },
+    "clock": {
+        "format": "{ %H:%M }",
+        "format-alt": "{%A, %B %d}",
+        "timezone": "America/Chicago",
+        "tooltip": false
+    },
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "{essid} ({signalStrength}%)",
+        "format-ethernet": "{ipaddr}/{cird}",
+        "format-disconnected": "",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "max-length": 50
+    },
+    "temperature": {
+        "format": "{temperatureF}°F"
+    },
+    "tray": {
+        "icon-size": 13,
+        "spacing": 10,
+        "cursor": true
+    }
+}
